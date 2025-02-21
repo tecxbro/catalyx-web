@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[dev]
+  framework = "#static"
+  command = "npm run dev"
+  port = 3000
